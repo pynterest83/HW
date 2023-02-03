@@ -1,0 +1,17 @@
+1. lệnh trên gán giá trị của biến bool isA với phép kiểm tra biến grade.
+    sai cú pháp, sửa thành (90<=grade && grade<=100)
+2. kết quả là 0 vì khi lệnh ép kiểu được thực hiện sau khi chia lấy thương.
+3. vì kết quả nằm ngoài phạm vi kiểu dữ liệu long.
+4. vì kiểu dữ liệu double có độ chính xác chưa tuyệt đối.
+5. Bị lỗi biên dịch division by zero.
+6.  Lỗi: "expression must have arithmetic or unscoped enum type"
+    Lỗi: giá trị rác, khi khai báo ở ngoài thì mặc định=0
+7.  0
+    0.75
+    0.75
+    0.75
+8. trình biên dịch báo biến đã được declare trước đó.
+9. Chỉ tới biến kiểu char
+10. Chỉ tới biến kiểu int
+11. phép chia 5/9 cho kết quả 0.
+12. In ra "Here"
