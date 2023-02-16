@@ -1,0 +1,34 @@
+1. bool majority(bool a, bool b, bool c){
+    return a || b || c ? (a && b) || (a && c) || (b && c) : false;
+    }
+2. bool eq(int*a , int*b, int n){
+        int cnt=0;
+        for (int i=0; i<size; i++){
+            if (a[i]==b[i]) cnt++;
+        }
+        if (cnt==n) return true;
+    }
+3. 1000 lần
+4. 17
+5. cài đặt thứ 2
+6. sẽ gọi đến hàm (int,double) vì tham số dữ liệu đầu tiên là int phù hợp hơn sau đó mới ép kiểu
+7. D
+8. A
+9. D
+10. B
+11. D
+12. B
+13. D
+14. D
+15. B
+16. B
+17. A
+18. A
+19. B
+20. C
+21. B
+22. C
+23. A
+24. B
+25. A
+26. B
