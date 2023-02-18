@@ -1,0 +1,1 @@
+// chương trinh báo lỗi "warning: address of local variable 'c' returned [-Wreturn-local-addr]"
