@@ -1,0 +1,23 @@
+int main()  { 
+   char **s; 
+   char foo[] = "Hello World"; 
+   *s = foo; 
+   printf("s is %s\n",s); 
+   s[0] = foo; 
+   printf("s[0] is %s\n",s[0]); 
+   return(0); 
+}
+
+// lỗi chưa cấp phát động 
+// chưa giải phóng con trỏ sau khi sử dụng
+
+int main()   { 
+   char **s = new char*; 
+   char foo[] = "Hello World"; 
+   *s = foo; 
+   printf("s is %s\n",*s); 
+   s[0] = foo; 
+   printf("s[0] is %s\n",s[0]); 
+   delete s; 
+   return(0); 
+}
