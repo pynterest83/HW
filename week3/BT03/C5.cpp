@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ROW 100
-#define COL 100
+const int ROW=100
+const int COL=100
 int main()
 {
 	int a[ROW][COL]={0};
