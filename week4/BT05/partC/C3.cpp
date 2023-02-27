@@ -5,12 +5,11 @@
 using namespace std;
 
 void draw(vector<vector<string>> asciiArt, string text){
-    int n=text.length();
-    while (n!=0){
-        for (int i=0; i<6; i++){
-            cout << asciiArt[text[i]-'a'][i] << endl;
+    for (int i=0; i<6; i++){
+        for (int j=0; j<text.length(); j++){
+            cout << asciiArt[text[j]-'a'][i];
         }
-        n--;
+        cout << endl;
     }
 }
 vector<vector<string>> asciiArt = {
@@ -45,5 +44,4 @@ int main(){
     string text;
     cin >> text;
     draw(asciiArt, text);
-    return 0;
 }
