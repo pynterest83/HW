@@ -1,0 +1,5 @@
+Nếu n nhập từ bàn phím thì cả 2 bài trên hoạt động bình thường
+
+Với bài toán in ra chuỗi các số chẵn dương không vượt quá n, nếu n là số âm hoặc bằng 0, thì không có số chẵn nào để in ra. Với trường hợp này, các vòng lặp trong bài đều sẽ không thực hiện.
+
+Với bài toán tính giá trị cuối cùng của k khi thực hiện phép tính k = k/3 cho đến khi k nhỏ hơn 3, nếu giá trị ban đầu của k là số âm hoặc bằng 0, thì vòng lặp sẽ không thực hiện.
